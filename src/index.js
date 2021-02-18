@@ -33,8 +33,8 @@
  * const
  */
 
-const vall3 = "const宣言";
-console.log(vall3);
+// const vall3 = "const宣言";
+// console.log(vall3);
 
 // vall3 = "上書き不可"
 // const vall3 = "再定義不可";
@@ -61,3 +61,13 @@ console.log(vall3);
 // console.log(val5);
 // val5[0] = "DOG";
 // val5.push("bird");
+
+/**
+ * テンプレート文字列
+ */
+const name = "tsuno";
+const age = 27;
+
+// テンプレート文字列をつかう
+const message = `私の名前は${name}です。年齢は${age}さいです。`;
+console.log(message);
