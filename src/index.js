@@ -65,9 +65,9 @@
 /**
  * テンプレート文字列
  */
-const name = "tsuno";
-const age = 27;
+// const name = "tsuno";
+// const age = 27;
 
-// テンプレート文字列をつかう
-const message = `私の名前は${name}です。年齢は${age}さいです。`;
-console.log(message);
+// // テンプレート文字列をつかう
+// const message = `私の名前は${name}です。年齢は${age}さいです。`;
+// console.log(message);
