@@ -78,6 +78,18 @@ const arr5 = [30, 40];
 // console.log(arr7);
 
 // const arr8 = [...arr4];
-const arr8 = arr4;
-arr8[0] = 100;
-console.log(arr4);
+// const arr8 = arr4;
+// arr8[0] = 100;
+// console.log(arr4);
+
+const nameArr = ["田中", "山田", "安田"];
+// nameArr.map((name, index) => console.log(`${index}番目は${name}`));
+
+const nameNewArr = nameArr.map((name) => {
+  if (name === "安田") {
+    return name;
+  } else {
+    return `${name}さん`;
+  }
+});
+console.log(nameNewArr);
